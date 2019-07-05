@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Capstone 1</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	
+	<!-- google fonts -->
+	<link rel="stylesheet" type="text/css" href="">
+	<!-- font awesome! -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a href="home.html" class="navbar-brand">
+			<h2 id=home-title class="my-auto"><img id="home-logo" src="assets/images/logo3.png">The Chase!</h2>
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="story.html" class="nav-link">
+						Story
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="map.html" class="nav-link">
+						Map
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="character.html" class="nav-link">
+						Characters
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="about.html" class="nav-link active">
+						About Us
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- end of header nav -->
+	<section id="about-section" class="jumbotron mb-0">
+		<div id="about-container" class="container">
+			<div id="land-column" class="container">
+				<div class="row">
+					<div class="col-md-5 mx-auto">
+						<h1 class="text-center mt-20">
+							Welcome to the world
+						</h1> 
+						<h1 class="text-center mt-20">
+							of
+						</h1>
+						<h1 class="text-center mt-20"> 
+							Grand Chase
+						</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5 mx-auto">
+						<p class="lead text-center">
+							<span id="land-title">A capstone 1 project</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end of body -->
+
+	<!-- start of gallery -->
+	<header id="head-gallery" class="card">
+		<h1 class="text-center display-3">Gallery Page</h1>
+	</header>
+
+	<div class="row">
+		<div id="left" class="col-md-4 d-none d-sm-block">
+			<div class="list-group">
+				<h2 class="p-3">Categories</h2>
+				<a href="#modal-1" class="list-group-item list-group-item-action">Item 1</a>
+				<a href="#" class="list-group-item list-group-item-action">Item 2</a>
+				<a href="#" class="list-group-item list-group-item-action">Item 3</a>
+				<a href="#" class="list-group-item list-group-item-action">Item 4</a>
+				<a href="#" class="list-group-item list-group-item-action">Item 5</a>
+				<a href="#" class="list-group-item list-group-item-action">Item 6</a>
+			</div>
+		</div>
+		<div id="right" class="col-12 col-md-8">
+			<div class="container">
+				<div id="gallery-items" class="row">
+					<div class="col-12 col-md-6">
+						<div class="card" data-toggle="modal" data-target="#modal-1">
+							<img src="http://place-puppy.com/200x200" class="card-img-top img-fluid">
+								<h3 class="card-title text-center">Doge</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of gallery -->
+
+	<!-- start modal -->
+	<div id="modal-1" class="modal fade">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5>Doggo</h5>
+					<button class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="http://place-puppy.com/200x200" class="img-fluid">
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- start footer nav -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">
+			Copyrights!
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="#" class="nav-link active">
+						About Us
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						Contacts
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						External links
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- end of footer nav -->
+
+
+	<!-- bootstrap dependencies -->
+	<!-- jquery first, then popper then bootstrap js -->
+	<!-- Latest compiled and minified CSS -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

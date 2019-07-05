@@ -1,0 +1,173 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'DM Serif Text', serif;
+}
+
+#home-logo{
+	height:40px;
+}
+
+#footer-logo{
+	height:40px;
+	border-radius: 50%;
+}
+
+/*Start land css*/
+#land-section{
+	height:100vh;
+	background:url(../images/bg-land1.png);
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+
+#land-container{
+	color:white;
+	padding-top:410px;
+}
+
+#land-btn{
+	border-radius:10px solid white;
+}
+
+#land-a{
+	color:white;
+}
+
+#land-col{
+	background:rgba(0,0,0,0.75);
+	border-radius:10px;
+	margin:10px;
+}
+/*End land css*/
+
+/*Start story css*/
+#story-section{
+
+}
+
+#story-body {
+	height:100vh;
+	background:url(../images/bg-story1.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:white;
+}
+
+#story-container{
+	padding:10px;
+	background:rgba(0,0,0,0.5);
+	margin:50px;
+	border-radius:10px;
+	border:1px solid white;
+}
+
+ul{
+	margin:10px;
+}
+
+#story-list-sub{
+	margin-left:20px;
+}
+
+#list-img{
+	list-style: none;
+	text-align: center;
+}
+/*End story css
+
+/*start map css*/
+#map-body {
+	height:100vh;
+	background:url(../images/bg-map1.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:white;
+}
+
+#map-container{
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	margin:50px;
+	border-radius:10px;
+	border:1px solid white;
+}
+
+#map-story{
+	width:500px;
+}
+/*End map css*/
+
+/*start character css*/
+#char-container{
+	height:100vh;
+	background:url(../images/bg-char3.png);
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*end character css*/
+
+/*Start about css*/
+#about-section{
+	height:100vh;
+	background:url(../images/bg-about1.jpg);
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+
+#about-content{
+	padding:10px;
+	background: rgba(0,0,0,0.75);
+	color:white;
+	border:1px;
+	border-radius:10px;
+}
+
+/*other screen css*/
+@media only screen and (max-width: 400px){
+	#land-container{
+	color:white;
+	padding-top:580px;
+	}
+	#pic-story{
+		width:230px;
+	}
+	#map-story{
+		width:230px;
+	}
+	.navbar-brand{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 960px){
+	#land-container{
+	color:white;
+	padding-top:580px;
+	}
+	#pic-story{
+		width:500px;
+	}
+	#map-story{
+		width:500px;
+	}
+	.navbar-brand{
+		display:none;
+	}
+}
+
+
+@media only screen and (min-width: 961px){
+}
+/*End about css*/
