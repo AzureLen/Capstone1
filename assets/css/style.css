@@ -151,17 +151,32 @@ span{
 }
 
 #about-section{
-	height:80vh;
+	padding:30px;
 }
 
 #about-content{
 	margin:50px;
 	padding:20px;
-	background: rgba(0,0,0,0.75);
 	color:white;
 	border:1px;
 	border-radius:10px;
+	background: rgba(0,0,0,0.75);
 }
+
+#form-col{
+	background: rgba(0,0,0,0.75);
+	padding:20px;
+	border-radius: 10px
+}
+
+#gmap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 10px;
+}
+/*end of about*/
 
 /*other screen css*/
 @media only screen and (max-width: 450px){
