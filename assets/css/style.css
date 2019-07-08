@@ -151,14 +151,14 @@ span{
 
 #about-content{
 	margin:50px;
-	padding:10px;
+	padding:20px;
 	background: rgba(0,0,0,0.75);
 	color:white;
 	border:1px;
 	border-radius:10px;
 }
 
-/*other screen css
+/*other screen css*/
 @media only screen and (max-width: 400px){
 	#land-container{
 	color:white;
@@ -170,15 +170,27 @@ span{
 	#map-story{
 		width:230px;
 	}
+	#char-story{
+		width:200px;
+	}
+	#char-icon{
+		width:150px;
+	}
 	.navbar-brand{
 		display:none;
+	}
+	#nav-footer{
+		display:none;
+	}
+	#about-section{
+		width:100%;
 	}
 }
 
 @media only screen and (min-width: 400px) and (max-width: 960px){
 	#land-container{
 	color:white;
-	padding-top:580px;
+	padding-top:720px;
 	}
 	#pic-story{
 		width:500px;
@@ -186,12 +198,25 @@ span{
 	#map-story{
 		width:500px;
 	}
+	}
+	#char-story{
+		width:200px;
+	}
+	#char-icon{
+		width:100px;
+	}
 	.navbar-brand{
 		display:none;
+	}
+	#nav-footer{
+		display:none;
+	}
+	#about-section{
+		width:100%;
 	}
 }
 
 
 @media only screen and (min-width: 961px){
 }
-/*End about css*/
+/*End about css
