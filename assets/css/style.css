@@ -103,7 +103,7 @@ ul{
 
 /*start character css*/
 #char-container{
-	height:75vh;
+	height:100vh;
 }
 
 #char-body{
@@ -131,6 +131,11 @@ ul{
 span{
 	font-size:50px;
 	padding:10px;
+}
+
+#char-drop{
+	overflow: auto;
+	height:600px;
 }
 /*end character css*/
 
