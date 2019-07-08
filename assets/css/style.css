@@ -176,9 +176,6 @@ span{
 	#char-icon{
 		width:150px;
 	}
-	.navbar-brand{
-		display:none;
-	}
 	#nav-footer{
 		display:none;
 	}
@@ -204,9 +201,6 @@ span{
 	}
 	#char-icon{
 		width:100px;
-	}
-	.navbar-brand{
-		display:none;
 	}
 	#nav-footer{
 		display:none;
